@@ -1,0 +1,51 @@
+pets:
+    experiencepet:
+        uniquename: '&dExperience Pet'
+        uniquedescription: '&7This is some kind of description.'
+        abilitytype: '&e&lPASSIVE'
+        skinID: 'MHF_Slime'
+        levelupmultiplier: 2.0
+        expmultiplier: 0.5
+        petexpbonus: 2
+        maxlevel: 10
+    wolfpet:
+        uniquename: '&7Wolf Pet'
+        uniquedescription: '&7This is some kind of description.'
+        abilitytype: '&c&lAGGRESSIVE'
+        skinID: 'Budwolf'
+        levelupmultiplier: 2.0
+        petexpbonus: 2
+        cooldowntimer: 40
+        abilitytimer: 20
+        maxlevel: 10
+    chickenpet:
+        uniquename: '&fChicken Pet'
+        uniquedescription: '&7This is some kind of description.'
+        abilitytype: '&a&lNEUTRAL'
+        skinID: 'MHF_Chicken'
+        levelupmultiplier: 2.0
+        petexpbonus: 2
+        cooldowntimer: 40
+        abilitytimer: 5
+        maxlevel: 10
+    spiderpet:
+        uniquename: '&8&lSpider pet'
+        uniquedescription: '&7This is some kind of description.'
+        abilitytype: '&c&lAGGRESSIVE'
+        skinID: 'MHF_spider'
+        levelupmultiplier: 2.0
+        petexpbonus: 2
+        cooldowntimer: 40
+        abilitytimer: 5
+        maxlevel: 10
+    leprechaunpet:
+        uniquename: '&2Leprechaun Pet'
+        uniquedescription: '&7This is some kind of description.'
+        abilitytype: '&c&lAGGRESSIVE'
+        skinID: 'MHF_Villager'
+        levelupmultiplier: 2.0
+        petexpbonus: 2
+        cooldowntimer: 40
+        abilitytimer: 20
+        moneyperhit: 5
+        maxlevel: 10

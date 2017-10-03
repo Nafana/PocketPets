@@ -1,0 +1,33 @@
+name: PocketPets
+version: 0.1
+main: net.nafana.pocketpets.PocketPetsPlugin
+author: Nafana
+depend: [Vault]
+
+commands:
+  petgive:
+    usage: /petgive <Player> <PetName>
+    description: Allows you to get a pet of your choice!
+
+permissions:
+   pocketpets.use.chickenpet:
+     default: op
+     description: Grants access to the chicken pet.
+   pocketpets.use.experiencepet:
+     default: op
+     description: Grants access to the experience pet.
+   pocketpets.use.leprechaunpet:
+     default: op
+     description: Grants access to the leprechaun pet.
+   pocketpets.use.spiderpet:
+     default: op
+     description: Grants access to the spider pet.
+   pocketpets.use.wolfpet:
+     default: op
+     description: Grants access to the wolf pet.
+   pocketpets.giveself:
+     default: op
+     description: Lets users give themselves pets.
+   pocketpets.giveothers:
+     default: op
+     description: Lets users give others pets.
